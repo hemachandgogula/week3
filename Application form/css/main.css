@@ -1,0 +1,20 @@
+.row{
+    width:25%;
+}
+.col{
+    margin-left: 10%;
+}
+.dropdown{
+    position: relative;
+}
+.form-group{
+    margin-left:10%;
+}
+.input-group{
+    width: 50%;
+    margin-left: 10%;
+}
+#inlineFormInputName{
+    width: 25%;
+    margin-left: 10%;
+}
