@@ -11,10 +11,17 @@
     margin-left:10%;
 }
 .input-group{
-    width: 50%;
+    width: 50% !important;
     margin-left: 10%;
 }
 #inlineFormInputName{
     width: 25%;
     margin-left: 10%;
 }
+#submit{
+    width: 25%;
+    margin-left: 10%;
+}
+body{
+     background-image: url('images/img.jpg');
+ }

@@ -38,8 +38,16 @@ function validateFullname() {
 }
 function postData() {
     const data={
-          firstname: $('.FirstName').val(),
-          fullname: $('.FullName').val()
+          firstname: $('#FirstName').val(),
+          fullname: $('#FullName').val(),
+          designation:$('#designation').val(),
+          employeecode:$('#employeecode').val(),
+           bloodgroup:$('#reason').val(),
+          DateofEmployment:$('#date').val(),
+          email:$('#Email').val(),
+          mobileno:$('#emp_mobile').val(),
+          emergencymobileno:$('#Emergency_mbl_no').val()
+
     }
     console.log(data);
     $.ajax({
